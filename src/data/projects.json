@@ -19,7 +19,7 @@
     ],
     "github": "https://github.com/MohdSaif44/abu-mainboard",
     "demo": "https://github.com/MohdSaif44/abu-mainboard",
-    "image": "src/assets/abu_robot.png"
+    "image": "/assets/abu_robot.png"
   },
   {
     "id": 2,

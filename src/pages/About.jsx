@@ -2,7 +2,7 @@ import { Link } from "react-router-dom"
 import { Icon } from "@iconify/react"
 import { motion, AnimatePresence } from "framer-motion"
 import { useState, useEffect } from "react"
-import profile from '/home/saif/Desktop/MyPortfolio/src/assets/profile.jpg'
+import profile from '../assets/profile.jpg'
 
 const About = () => {
     const roles = [

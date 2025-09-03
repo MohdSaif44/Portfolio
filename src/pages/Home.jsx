@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
 import { Icon } from "@iconify/react"
-import profile from '/home/saif/Desktop/MyPortfolio/src/assets/home_profile.jpg'
+import profile from '../assets/home_profile.jpg'
 import projects from '../data/projects.json'
 import { motion, AnimatePresence } from "framer-motion"
 import { useState, useEffect } from "react"

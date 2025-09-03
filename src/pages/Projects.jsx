@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react"
 import ProjectCard from "../components/ProjectCard"
-import projectsData from "../data/projects.json"
+import projectsData from "../data/projects"
 import { projectCategories } from "../data/categories"
 import { motion } from "framer-motion"
 import { Icon } from "@iconify/react"

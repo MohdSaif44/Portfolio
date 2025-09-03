@@ -88,5 +88,21 @@
     "github": "https://github.com/MohdSaif44/Lift-System",
     "demo": "https://drive.google.com/file/d/1vroi1o3UWhd02IUPgaincuLLl9QpKzVR/view",
     "image": "../assets/lift.jpeg"
+  },
+  {
+    "id": 6,
+    "title": "ESP32 development board PCB Design",
+    "description": "Designed a 4-layer PCB for the ESP32-S3-MINI in Altium Designer using standard industrial design processes, from schematic capture to layout and fabrication. Implemented best practices to minimize heat buildup and reduce signal noise through component placement, ground planes  and decoupling strategies. Followed routing and layer standards in accordance with JLCPCB manufacturing guidelines to ensure signal integrity and reliable mass production.",
+    "technologies": [
+      "Altuim Designer",
+      "DigiKey",
+      "JLCPCB"
+    ],
+    "category": [
+      "iot-embedded"
+    ],
+    "github": "https://github.com/MohdSaif44/ESP32-S3-MINI",
+    "demo": "https://github.com/MohdSaif44/ESP32-S3-MINI",
+    "image": "../assets/pcb.jpeg"
   }
 ]

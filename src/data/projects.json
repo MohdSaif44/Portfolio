@@ -18,7 +18,7 @@
     ],
     "github": "https://github.com/MohdSaif44/abu-mainboard",
     "demo": "https://github.com/MohdSaif44/abu-mainboard",
-    "image": "../assets/abu_robot.jpeg"
+    "image": "src/assets/abu_robot.jpeg"
   },
   {
     "id": 2,
@@ -37,7 +37,7 @@
     ],
     "github": "https://github.com/MohdSaif44/dancing_robot",
     "demo": "https://github.com/MohdSaif44/dancing_robot",
-    "image": "../assets/dancing_robot.jpeg"
+    "image": "src/assets/dancing_robot.jpeg"
   },
   {
     "id": 3,
@@ -54,7 +54,7 @@
     ],
     "github": "https://github.com/MohdSaif44/tester-code-robomaster",
     "demo": "https://github.com/MohdSaif44/tester-code-robomaster",
-    "image": "../assets/serial-studio.png"
+    "image": "/src/assets/serial-studio.png"
   },
   {
     "id": 4,
@@ -70,7 +70,7 @@
     ],
     "github": "https://github.com/MohdSaif44/mainboard/tree/prototype",
     "demo": "https://drive.google.com/file/d/1CBArjczUFCylm3Fq0pCKf-ga2mQEULir/view?usp=drive_link",
-    "image": "../assets/robotic_leg.jpg"
+    "image": "src/assets/robotic_leg.jpg"
   },
   {
     "id": 5,
@@ -85,6 +85,6 @@
     ],
     "github": "https://github.com/MohdSaif44/Lift-System",
     "demo": "https://drive.google.com/file/d/1vroi1o3UWhd02IUPgaincuLLl9QpKzVR/view",
-    "image": "../assets/lift.jpeg"
+    "image": "/src/assets/lift.jpeg"
   }
 ]

@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "institution": "Universiti Teknologi Malaysia (UTM)",
+    "location": "Johor Bahru, Malaysia",
+    "degree": "Bachelor of Electrical Engineering with hounors",
+    "startDate": "Oct 2022",
+    "endDate": "Oct 2026",
+    "description": "Specialized in Electrical Engineering with a focus on robotics software, embedded systems, and AI-IoT integration.",
+    "achievements": [
+      "CGPA: 3.95/4.00",
+      "6x Dean’s List",
+      "Abu Robocon 2025 Malaysia's National Champion"
+    ]
+  }
+]

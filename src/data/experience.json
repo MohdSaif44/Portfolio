@@ -1,0 +1,49 @@
+[
+  {
+    "id": 1,
+    "position": "Automation & Testing Engineer (Part-Time)",
+    "company": "TSH Contract Manufacturing Sdn Bhd",
+    "location": "Johor Bahru, Malaysia",
+    "startDate": "April 2025",
+    "endDate": "July 2025",
+    "responsibilities": [
+      "Contributed to the development of a custom hardware signal testing system for Makino F-series machines.",
+      "Integrated Fanuc Machine Tool Controllers (MTCs) testing using FOCAS2 to automate PMC I/O verification.",
+      "Implemented Modbus RTU communication to control and monitor TD39 digital I/O modules.",
+      "Extended a PySide2-based GUI for real-time signal inspection, result logging, and test automation.",
+      "Performed troubleshooting, signal mapping, and validation for CNC machine control logic."
+    ],
+    "technologies": [
+      "FANUC LADDER 3",
+      "PySide2",
+      "FOCAS2",
+      "Python",
+      "Modbus RTU",
+      "Ladder Logic"
+    ]
+  },
+  {
+    "id": 2,
+    "position": "Senior Robotic Programmer",
+    "company": "UTM Robocon Club",
+    "location": "Johor Bahru, Malaysia",
+    "startDate": "Nov 2023",
+    "endDate": "May 2025",
+    "responsibilities": [
+      "Programmed a robot to represent Malaysia in ABU ROBOCON 2025.",
+      "Developed control software to navigate a game field, interact with game objects, and execute mission-critical tasks under tight timing constraints.",
+      "Tested and optimized motor control systems for improved robot response.",
+      "Integrated distance sensors (Lasers, encoders, and LiDAR) for real-time localization and obstacle awareness. Thus improving the robot's position accuracy by 50%."
+    ],
+    "technologies": [
+      "ROS2",
+      "STM32",
+      "Embedded Systems",
+      "C",
+      "Python",
+      "PID Controller",
+      "Sensor Integration",
+      "Kalman Filter"
+    ]
+  }
+]

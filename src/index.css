@@ -1,0 +1,249 @@
+@import "tailwindcss";
+
+:root {
+  /* Modern, professional color palette */
+  --color-primary: #8b5cf6;
+  /* Electric blue */
+  /* Rich blue */
+  --color-secondary: #00cfff;
+  /* Cyan accent */
+  /* Vibrant pink */
+  --color-dark: #0a0f1a;
+  /* Deep blue-black */
+  /* Deep navy */
+  --color-dark-lighter: #101828;
+  /* Slightly lighter blue-black */
+  /* Navy blue */
+  --color-light: #f8fafc;
+  /* Clean white */
+  --color-accent: #cb8dff;
+  /* Vivid blue accent */
+  /* Sky blue */
+  --color-text: #e0e7ef;
+  /* Off-white */
+  /* Soft white */
+  --color-text-light: #a5b4fc;
+  /* Light blue */
+  /* Muted gray */
+  --color-success: #22c55e;
+  /* Green */
+  --color-warning: #eab308;
+  /* Yellow */
+  --color-error: #ef4444;
+  /* Red */
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-[var(--color-dark)] text-[var(--color-text)] font-sans leading-relaxed;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-bold text-[var(--color-text)] leading-tight;
+  }
+
+  h1 {
+    @apply text-5xl md:text-6xl mb-8 tracking-tight;
+  }
+
+  h2 {
+    @apply text-4xl md:text-5xl mb-6 tracking-tight;
+  }
+
+  h3 {
+    @apply text-3xl md:text-4xl mb-5 tracking-tight;
+  }
+
+  p {
+    @apply text-[var(--color-text-light)] mb-4 leading-relaxed;
+  }
+
+  a {
+    @apply text-[var(--color-accent)] hover:text-[var(--color-primary)] transition-colors duration-200;
+  }
+}
+
+@layer components {
+  .animate-fade-in {
+    animation: fadeIn 0.5s ease-in;
+  }
+
+  .animate-slide-up {
+    animation: slideUp 0.5s ease-out;
+  }
+
+  .animate-slide-down {
+    animation: slideDown 0.5s ease-out;
+  }
+
+  .animate-scale {
+    animation: scale 0.3s ease-in-out;
+  }
+
+  .glass {
+    background: rgba(16, 24, 40, 0.6);
+    backdrop-filter: blur(16px) saturate(180%);
+    border: 1.5px solid rgba(33, 150, 243, 0.15);
+    box-shadow: 0 8px 32px 0 rgba(33, 150, 243, 0.15);
+  }
+
+  .card {
+    @apply rounded-2xl p-8 shadow-2xl border border-[var(--color-primary)]/10 transition-all duration-300;
+    background: rgba(16, 24, 40, 0.6);
+    backdrop-filter: blur(16px) saturate(180%);
+    box-shadow: 0 8px 32px 0 rgba(33, 150, 243, 0.15);
+    border: 1.5px solid rgba(33, 150, 243, 0.15);
+  }
+
+  .card:hover {
+    box-shadow: 0 8px 32px 0 rgba(33, 150, 243, 0.25);
+  }
+
+  .btn {
+    @apply px-6 py-3 rounded-lg font-semibold transition-all duration-200 transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-[var(--color-dark)] shadow-lg;
+    box-shadow: 0 2px 16px 0 rgba(33, 150, 243, 0.15);
+    border: 1.5px solid transparent;
+  }
+
+  .btn-primary {
+    @apply bg-gradient-to-r from-[var(--color-primary)] to-[var(--color-accent)] text-white;
+    box-shadow: 0 0 8px 0 var(--color-primary), 0 2px 16px 0 rgba(33, 150, 243, 0.15);
+    border-color: var(--color-primary);
+  }
+
+  .btn-primary:hover,
+  .btn-primary:focus {
+    background: linear-gradient(90deg, var(--color-accent), var(--color-primary));
+    box-shadow: 0 0 16px 2px var(--color-accent), 0 2px 16px 0 rgba(33, 150, 243, 0.25);
+    border-color: var(--color-accent);
+  }
+
+  .btn-secondary {
+    @apply bg-[var(--color-secondary)] text-white hover:bg-[var(--color-accent)] focus:ring-[var(--color-secondary)];
+  }
+
+  .nav-link {
+    @apply text-[var(--color-text-light)] hover:text-[var(--color-accent)] transition-colors duration-200 px-4 py-2 rounded-lg hover:bg-[var(--color-dark-lighter)];
+  }
+
+  .nav-link.active {
+    @apply text-[var(--color-accent)] bg-[var(--color-dark-lighter)];
+  }
+
+  .navbar {
+    @apply flex items-center justify-between px-8 py-4 rounded-2xl shadow-xl border border-[var(--color-primary)]/10;
+    background: rgba(16, 24, 40, 0.6);
+    backdrop-filter: blur(16px) saturate(180%);
+    box-shadow: 0 8px 32px 0 rgba(33, 150, 243, 0.15);
+    border: 1.5px solid rgba(33, 150, 243, 0.15);
+    position: sticky;
+    top: 0;
+    z-index: 50;
+    margin-bottom: 2rem;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideDown {
+  from {
+    transform: translateY(-20px);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes scale {
+  from {
+    transform: scale(0.95);
+  }
+
+  to {
+    transform: scale(1);
+  }
+}
+
+.text-theme {
+  color: var(--color-primary);
+}
+
+.text-theme2 {
+  color: var(--color-secondary);
+}
+
+.text-darktheme {
+  color: var(--color-dark);
+}
+
+.bg-theme {
+  background-color: var(--color-primary);
+}
+
+.bg-theme2 {
+  background-color: var(--color-secondary);
+}
+
+.bg-darktheme {
+  background-color: var(--color-dark);
+}
+
+.bg-darktheme-lighter {
+  background-color: var(--color-dark-lighter);
+}
+
+.hover\:bg-theme:hover {
+  background-color: var(--color-accent);
+}
+
+.hover\:bg-theme2:hover {
+  background-color: var(--color-secondary);
+}
+
+.border-theme {
+  border-color: var(--color-primary);
+}
+
+.transition-all {
+  transition: all 0.3s ease-in-out;
+}
+
+.hover\:scale-105 {
+  transition: transform 0.3s ease-in-out;
+}
+
+.hover\:scale-105:hover {
+  transform: scale(1.05);
+}

@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "title": "Abu Robocon 2025 Robot",
+    "description": "Programmed a robot to represent Malaysia in ABU ROBOCON 2025. Developed control software to navigate a game field, interact with game objects, and execute mission-critical tasks under tight timing constraints. Integrated distance sensors (Lasers, encoders, and LiDAR) for real-time localization and obstacle awareness. Thus improving the robot's position accuracy by 50%.",
+    "technologies": [
+      "ROS2",
+      "Sensor Integration",
+      "STM32",
+      "Python",
+      "Kalman Filter",
+      "Swerve Drive",
+      "Motion Control"
+    ],
+    "category": [
+      "robotics",
+      "iot-embedded"
+    ],
+    "github": "https://github.com/MohdSaif44/abu-mainboard",
+    "demo": "https://github.com/MohdSaif44/abu-mainboard",
+    "image": "src/assets/abu_robot.jpeg"
+  },
+  {
+    "id": 2,
+    "title": "Dancing Robot",
+    "description": "Programmed and choreographed a robot to perform a cultural dance at Gala Bitara K.A.T.A Madani (Program Perkampungan Budaya 2024, UPSI), representing UTM. Developed control scripts that coordinated actuators and ensured smooth movement throughout the performance. Collaborated with event organizers and performers to blend technological innovation with cultural expression in a live showcase.",
+    "technologies": [
+      "STM32",
+      "IoT",
+      "Path Planning",
+      "Embedded Systems",
+      "Wi-Fi"
+    ],
+    "category": [
+      "robotics",
+      "iot-embedded"
+    ],
+    "github": "https://github.com/MohdSaif44/dancing_robot",
+    "demo": "https://github.com/MohdSaif44/dancing_robot",
+    "image": "src/assets/dancing_robot.jpeg"
+  },
+  {
+    "id": 3,
+    "title": " STM32F407 Testing System",
+    "description": "Developed testing code for the mainboard based on STM32F4 to verify core functionalities, including PIN signal output, and communication interfaces such as CAN, UART, and I²C. Created test routines to validate hardware reliability and ensure all peripherals operated within design specifications. Collaborated with the electronics team to diagnose issues and find optimal solutions reducing mainboard failure to less than 5%.",
+    "technologies": [
+      "Embedded Systems",
+      "IoT",
+      "STM32",
+      "RTOS"
+    ],
+    "category": [
+      "iot-embedded"
+    ],
+    "github": "https://github.com/MohdSaif44/tester-code-robomaster",
+    "demo": "https://github.com/MohdSaif44/tester-code-robomaster",
+    "image": "/src/assets/serial-studio.png"
+  },
+  {
+    "id": 4,
+    "title": "Robotic Arm",
+    "description": "Programmed a robotic arm using forward/inverse kinematics and trajectory planning to achieve smooth and precise motion. These techonologies were later used to develop a jumping robot. Integrated safety features including joint limits, torque monitoring to maintain stable operation under rapid dynamics.",
+    "technologies": [
+      "STM32",
+      "Kenumatics",
+      "MATLAB"
+    ],
+    "category": [
+      "iot-embedded"
+    ],
+    "github": "https://github.com/MohdSaif44/mainboard/tree/prototype",
+    "demo": "https://drive.google.com/file/d/1CBArjczUFCylm3Fq0pCKf-ga2mQEULir/view?usp=drive_link",
+    "image": "src/assets/robotic_leg.jpg"
+  },
+  {
+    "id": 5,
+    "title": "Three‐Floor Lift Control System",
+    "description": "Designed and modeled lift control logic with state diagrams and flowcharts to manage call registration door interlocks and emergency overrides. Implemented CX-One ladder logic on an Omron SYSMAC CPM2A PLC, mapping floor buttons, floor‐position sensors, limit switches, motor and door relays. Validated performance through testing of single & sequential request scenarios.",
+    "technologies": [
+      "CX Programmer",
+      "Ladder Logic"
+    ],
+    "category": [
+      "plc"
+    ],
+    "github": "https://github.com/MohdSaif44/Lift-System",
+    "demo": "https://drive.google.com/file/d/1vroi1o3UWhd02IUPgaincuLLl9QpKzVR/view",
+    "image": "/src/assets/lift.jpeg"
+  }
+]

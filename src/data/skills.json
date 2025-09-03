@@ -1,0 +1,43 @@
+{
+  "Programming & Development": [
+    "Python",
+    "C",
+    "ROS2",
+    "MATLAB",
+    "Linux",
+    "Git",
+    "STM32",
+    "VS Code"
+  ],
+  "Computer Vision & AI": [
+    "OpenCV",
+    "YOLO",
+    "Reinforcment Learning",
+    "Image Processing"
+  ],
+
+  "Robotics & Autonomous": [
+    "ROS2",
+    "SLAM Toolbox",
+    "Extended Kalman Filter"
+  ],
+  "Embedded Systems": [
+    "STM32",
+    "ESP32",
+    "Raspberry Pi",
+    "Jetson Xavier",
+    "Jetson Nano",
+    "2D LiDAR",
+    "IMU",
+    "Encoders"
+  ],
+  "Networking & Protocols": [
+    "UART",
+    "I2C",
+    "CAN",
+    "USB",
+    "HTTP",
+    "Modbus TCP",
+    "Modbus RTU"
+  ]
+}

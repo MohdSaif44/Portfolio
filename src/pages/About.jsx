@@ -159,7 +159,7 @@ const About = () => {
                                     >
                                         I'm Mohamed Saifeldin, an engineer engineer who builds smart systems that think, sense and solve problems. From robotics to embedded IoT solutions, I love turning ideas into real, working technology.
 
-                                        My background is in Electrical Engineering with a focus on robotics and automation. In UTM, I've consistently ranked among the top of my class. More than just grades, what sets me apart is my drive to explore beyond the classroom. I've developed advanced robots using ROS2 and SLAM & competed in many robotics competetitions such as Abu Robocon 2024.
+                                        My background is in Electrical Engineering with a focus on robotics and automation. In UTM, I've consistently ranked among the top of my class. More than just grades, what sets me apart is my drive to explore beyond the classroom. I've developed advanced robots using ROS2 and SLAM to compete in many robotics competetitions such as Abu Robocon 2024.
 
                                         I stay up to date with fast-moving technologies like artificial intelligence, robotics software and embedded systems because I believe great engineers never stop learning. Whether I'm writing code for a microcontroller, designing a PCB or building an embedded system, I approach every project with curiosity, precision, and a mindset to solve real problems.
 
